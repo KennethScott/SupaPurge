@@ -1,0 +1,48 @@
+{
+  "name": "supapurge",
+  "version": "1.0.0",
+  "description": "Google Apps Script for easy automated message purging in GMail",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "format": "prettier --write dist/code.js",
+    "postbuild": "npm run format",
+    "upload": "npx clasp push",
+    "deploy": "npm run build && npm run upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennethScott/SupaPurge.git"
+  },
+  "author": "Kenneth Scott",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/KennethScott/SupaPurge/issues"
+  },
+  "homepage": "https://github.com/KennethScott/SupaPurge#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/eslint-parser": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@types/google-apps-script": "^1.0.64",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-googleappsscript": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-webpack-plugin": "^4.0.1",
+    "gas-webpack-plugin": "^2.5.0",
+    "npm-watch": "^0.11.0",
+    "prettier": "^2.8.8",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.8"
+  }
+}
