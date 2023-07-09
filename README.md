@@ -47,13 +47,15 @@ To manually install:
 
 2. **New project**: Click on the "New Project" button to create a new script.
 
-3. **Copy the script**: In the script editor, replace the default content of your ````code.gs```` file with the content of this script ````/dist/code.js````. Here is an example of how your code should look like:
+3. **Copy the script**: In the script editor, replace the default content of your ````code.gs```` file with the content of this script ````/dist/code.js````. 
 
-4. **Name the project**: Click the **Untitled Project** label at the top of the page and name your project as desired.
+4. **Add Gmail service**: On the left, click the **+** just to the right of **Services** to add a new service to your project.  Select **Gmail API** from the list and click **Add**.
 
-5. **Save the script**: Click the **Save** icon in the toolbar near the top of the page. 
+5. **Name the project**: Click the **Untitled Project** label at the top of the page and name your project as desired.
 
-6. **Edit the project settings**: Click the **Project Settings** icon on the left side of the page.  Ensure the **Enable Chrome V8 runtime** option is **checked**.
+6. **Save the script**: Click the **Save** icon in the toolbar near the top of the page. 
+
+7. **Edit the project settings**: Click the **Project Settings** icon on the left side of the page.  Ensure the **Enable Chrome V8 runtime** option is **checked**.
 
 ## Deployment
 
